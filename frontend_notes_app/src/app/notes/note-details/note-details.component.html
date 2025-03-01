@@ -1,0 +1,27 @@
+<!-- <p>note-details works!</p> -->
+
+<div class="container">
+  <form>
+    <div class="body">
+      <label>Title</label>
+      <input
+        name="title"
+        [(ngModel)]="note.title"
+        type="text"
+        placeholder="{{ note.title }}"
+      />
+      <label>Content</label>
+      <textarea
+        name="content"
+        [(ngModel)]="note.content"
+        type="text"
+        placeholder="{{ note.content }}"
+      ></textarea>
+    </div>
+
+    <div class="btns">
+      <button (click)="cancel()">Cancel</button>
+      <button type="button" (click)="submit()">Save</button>
+    </div>
+  </form>
+</div>

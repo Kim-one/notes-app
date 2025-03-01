@@ -1,0 +1,17 @@
+<!-- <p>home works!</p> -->
+<div class="container">
+  <div class="search_container">
+    <input
+      (input)="onSearch()"
+      type="text"
+      class="search_bar"
+      [(ngModel)]="searchText"
+    />
+  </div>
+  <div>
+    <app-notescard></app-notescard>
+  </div>
+</div>
+<div class="btn">
+  <button (click)="display()">Add Notes</button>
+</div>

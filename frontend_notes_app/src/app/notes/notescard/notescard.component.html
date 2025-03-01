@@ -1,0 +1,10 @@
+<!-- <p>notescard works!</p> -->
+<!-- <p>{{ search }}</p> -->
+<div *ngFor="let note of filteredNotes" class="container">
+  <div class="note_card">
+    <h3 class="content_title">{{ note.title }}</h3>
+    <div class="content_body">{{ note.content }}</div>
+    <button (click)="deleteNotes(note.noteId)">x</button>
+    <button id="btn" (click)="editNotes(note.noteId)">Edit</button>
+  </div>
+</div>

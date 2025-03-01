@@ -1,0 +1,60 @@
+.container .body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  /* border: 1px solid black; */
+  max-height: 100vh;
+}
+
+form {
+  border: 1px solid rgb(145, 159, 162);
+  border-radius: 25px;
+  max-width: 300px;
+  height: 400px;
+  margin: auto;
+  background-color: rgb(95, 199, 234);
+}
+
+form .body {
+  max-width: 250px;
+  margin: 15px auto;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+textarea {
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  resize: none;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.btns button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+
+.btns button:last-child {
+  background-color: aquamarine;
+}
+
+.btns button:hover {
+  cursor: pointer;
+}

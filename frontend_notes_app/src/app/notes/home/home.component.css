@@ -1,0 +1,43 @@
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: auto;
+}
+
+button {
+  border: none;
+  background-color: fuchsia;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.search_container {
+  text-align: center;
+}
+
+.search_bar {
+  /* border: 1px solid black; */
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+
+.search_btn {
+  padding: 10px;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  max-width: 300px;
+  border: 1px solid rgb(190, 179, 179);
+  padding: 1px 5px 30px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.note_card button {
+  /* padding: 5px; */
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  right: 15px;
+  top: 20px;
+  background-color: rgb(234, 227, 227);
+}
+
+.note_card button:hover {
+  cursor: grabbing;
+  color: red;
+  background-color: rgb(255, 174, 174);
+}
+
+#btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: chartreuse;
+}
