@@ -20,7 +20,7 @@
 
 .note_card button:hover {
   cursor: grabbing;
-  color: red;
+  color: rgb(102, 255, 0);
   background-color: rgb(255, 174, 174);
 }
 
