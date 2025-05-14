@@ -34,15 +34,14 @@ npm install
 # Install frontend dependencies
 cd ../client
 npm install
+
 ▶️ Running the App
 Start the backend:
 cd server
 node index.js
+
 Start the frontend:
 
-bash
-Copy
-Edit
 cd ../client
 ng serve
 Visit: http://localhost:4200
